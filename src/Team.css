@@ -10,8 +10,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F5FBFF;
   position: relative;
+  margin-top: -3rem;
   
 }
 .profile-card{
@@ -80,10 +80,13 @@
 }
 
 .ourteam{
-  font-size: 5rem;
+  font-size: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-family: 'Titillium Web';
+  text-transform: uppercase;
   text-align: center;
   position: relative;
-  top: -50px;
  
 }
 

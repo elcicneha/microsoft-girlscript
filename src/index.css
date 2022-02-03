@@ -226,14 +226,20 @@ a{
 }
 
 /* Tracks */
-.home{
+.home, .profile{
   overflow: hidden;
   background-color: black;
   color: #ffffff;
+
 }
 .home .main-heading-home{
   margin-top: 2rem;
 }
+.profile{
+  color: black;
+  background-color: #ffffff;
+}
+
 .wrapper-grid-track {
   padding: 3rem 2rem 0 2rem;
   display: grid;
@@ -355,6 +361,9 @@ a{
     flex-direction: column;
     align-content: center;
   }
+  .side{
+    display: none;
+  }
   .illustration{
     display: flex;
     justify-content: center;
@@ -376,14 +385,24 @@ a{
     padding: 0;
   }
 }
+@media(max-width:630px){
+  /* .mock-container .para{
+    width: 90%;
+  } */
+}
 @media(max-width:520px) {
-  .linkedin-container{
-    padding: 2rem 1rem;
+  .illustration{
+    display: none;
   }
   .mock-container .illustration img{
-    margin-top: -5rem;
-    width: 20rem;
-    margin: 0;
+    display: none;
+  }
+  .main-heading-home{
+    font-size: 55px;
+  }
+  .linkedin-container .para{
+    margin-left: -1rem;
+    width: 95%;
   }
 }
 

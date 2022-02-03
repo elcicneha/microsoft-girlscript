@@ -1,5 +1,5 @@
 .home{
-  padding: 1rem 0 4rem 0;
+
   background-color: black;
   color: #ffffff;
 }
@@ -56,7 +56,7 @@
   /* max-width: 800px; */
   margin: 0px auto;
   color: white;
-  margin: 3.6% 10%;
+  margin: 6% 10%;
 }
 .mytabs input[type="radio"] {
   display: none;
@@ -65,12 +65,13 @@
   padding: 10px 20px;
   background: #000000;
   font-weight: bold;
+  font-size: 0.9rem;
   margin: 0 0.5%;
 }
 
 .mytabs .tab {
   width: 100%;
-  padding: 5%;
+  padding: 3% 5% 2% 5%;
   background: rgb(0, 0, 0);
   order: 1;
   display: none;
@@ -111,13 +112,12 @@
   font-size: 1.2rem;
   color: grey;
 }
-h1{
-  font-size: 58px;
-}
+
 p{
   font-size: 20px;
   line-height: 30px;
 }
+
 .heading-task{
   font-size: 80px;
   padding-top: 5rem;
@@ -128,14 +128,29 @@ p{
   margin: 0rem;
 }
 .subheading-task{
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   font-weight: 200;
 }
 .p-task{
   display: block;
-  margin-block-start: 1em;
+  margin-block-start: 0.5em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+}
+#Azure{
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 567px) {
+  #Security{
+      margin: 0% 29% 2% 6%;
+  }
+  #Azure{
+      margin: 0% 29% 2% 6%;
+  }
+  #Data{
+      margin: 0% 29% 2% 6%;
+  }
 }
