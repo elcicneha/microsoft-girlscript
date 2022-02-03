@@ -15,11 +15,20 @@ function Home() {
                             Choose your own track and LEARN
                         </h3>
                         <p className="grid-para-home">
-                            Choose any one of the track and complete the course. If you have incomplete progress from the previous challenge, you can continue this new challenge from that point itself and complete the course.
+                            Choose any one of the track and complete the course. If you have incomplete progress from the previous challenge, you can continue this new challenge from that point itself and complete the course.<br/><br/>
                         </p>
                     </div>
                     <div className="blue-button-grid">
-                        <button> <a href="google.com">Start Learning</a>
+                    <button
+                        className="blue-button"
+                        onClick={() => {
+                        let val = document.getElementById("track-container");
+                        return val.scrollIntoView();
+                        }}
+                        style={{
+                        cursor: "pointer",
+                        }}>
+                        Start Learning
                         </button>
                     </div>
 
@@ -34,13 +43,11 @@ function Home() {
                             Update your LinkedIn Skills
                         </h3>
                         <p className="grid-para-home">
-                            Once you complete the course, you will have to update your LinkedIn Skill and add "Microsoft Azure"
-                            to
-                            your profile. Once the profile is updated successfully, share your LinkedIn Profile with us.
+                            Once you complete the course, you will have to update your LinkedIn Skill and add "Microsoft Azure" to your profile. Once the profile is updated successfully, share your LinkedIn Profile with us.<br/><br/>
                         </p>
                     </div>
                     <div className="blue-button-grid">
-                        <button> <a href="google.com">Share Profile</a>
+                        <button> <a href="https://www.microsoft.com/en-in/campaign/AzureSkills/?source=FC-4" target="_blank">Share Profile</a>
                         </button>
                     </div>
 
@@ -59,7 +66,16 @@ function Home() {
                         </p>
                     </div>
                     <div className="blue-button-grid">
-                        <button> <a href="google.com" > Give Test</a>
+                    <button
+                        className="blue-button"
+                        onClick={() => {
+                        let val = document.getElementById("mock-container");
+                        return val.scrollIntoView();
+                        }}
+                        style={{
+                        cursor: "pointer",
+                        }}>
+                            Give Test
                         </button>
                     </div>
 

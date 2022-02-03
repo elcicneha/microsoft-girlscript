@@ -3,7 +3,7 @@ import mock from "./images/mocktest.svg";
 
 function Mock() {
   return (
-<div className="home track">
+<div className="home track" id="mock-container">
     <div className='side mock'>
         <div className="lines">
           <div className="line1"></div>

@@ -157,7 +157,7 @@ a{
   line-height: 80px;
   font-family: 'Titillium Web';
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .subheading-home{
   font-size: 20px;
@@ -232,9 +232,9 @@ a{
   color: #ffffff;
 
 }
-.home .main-heading-home{
+/* .home .main-heading-home{
   margin-top: 2rem;
-}
+} */
 .profile{
   color: black;
   background-color: #ffffff;
