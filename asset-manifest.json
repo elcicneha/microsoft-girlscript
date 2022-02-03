@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/microsoft-girlscript/static/css/main.283bf6b9.css",
+    "main.js": "/microsoft-girlscript/static/js/main.997be7f5.js",
+    "static/js/787.ec704a7a.chunk.js": "/microsoft-girlscript/static/js/787.ec704a7a.chunk.js",
+    "static/media/kamini.jpg": "/microsoft-girlscript/static/media/kamini.6ff74aa1eb46c70aee70.jpg",
+    "static/media/muskan.jpg": "/microsoft-girlscript/static/media/muskan.608e6a97f526265a23a8.jpg",
+    "static/media/manas.jpg": "/microsoft-girlscript/static/media/manas.67aa059a33e012c62a09.jpg",
+    "static/media/about-BG.jpg": "/microsoft-girlscript/static/media/about-BG.b3f0bde4970dbc734a8d.jpg",
+    "static/media/harsha.jpg": "/microsoft-girlscript/static/media/harsha.58b3c04be9d3e97eb985.jpg",
+    "static/media/tejasi.jpeg": "/microsoft-girlscript/static/media/tejasi.3bc23804a24a4d3d12b9.jpeg",
+    "static/media/first.png": "/microsoft-girlscript/static/media/first.03f4ff694712770fbbef.png",
+    "static/media/third.png": "/microsoft-girlscript/static/media/third.af4831a8d4b9d7fcf74c.png",
+    "static/media/second.png": "/microsoft-girlscript/static/media/second.64154d311c0eeae799c3.png",
+    "static/media/dummy.jpg": "/microsoft-girlscript/static/media/dummy.edca21f8c98d7ceedb1f.jpg",
+    "static/media/MicrosoftLogo.png": "/microsoft-girlscript/static/media/MicrosoftLogo.80ea89c4aec6f01aea3f.png",
+    "static/media/mocktest.svg": "/microsoft-girlscript/static/media/mocktest.c30b23f00699933b53cdb98b33efb379.svg",
+    "static/media/illust1.svg": "/microsoft-girlscript/static/media/illust1.4c55ebe67d2e92c067dd17cdfc4d6dff.svg",
+    "index.html": "/microsoft-girlscript/index.html",
+    "main.283bf6b9.css.map": "/microsoft-girlscript/static/css/main.283bf6b9.css.map",
+    "main.997be7f5.js.map": "/microsoft-girlscript/static/js/main.997be7f5.js.map",
+    "787.ec704a7a.chunk.js.map": "/microsoft-girlscript/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.283bf6b9.css",
+    "static/js/main.997be7f5.js"
+  ]
+}
