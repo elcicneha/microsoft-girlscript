@@ -51,7 +51,7 @@ function Track() {
           </p>
           <button class="tsk-btn">
             <a
-              href="https://docs.microsoft.com/en-us/learn/challengesid=0159a23d-a8a7-4fdc-8cd5-9401c8ae610e"
+              href="https://docs.microsoft.com/learn/challenges?id=0159a23d-a8a7-4fdc-8cd5-9401c8ae610e"
               target=" "
             >
               Start Learning</a
