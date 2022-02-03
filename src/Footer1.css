@@ -1,0 +1,23 @@
+.footer1 {
+  position: relative;
+  background-color: black;
+  height: 100px;
+}
+.footer_content {
+  position: relative;
+  color: white;
+  margin: auto;
+  font-size: 0.7rem;
+  /* left: 25%; */
+}
+.content__ {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.footer_link{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+ 
